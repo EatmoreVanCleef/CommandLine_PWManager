@@ -13,7 +13,7 @@ Example:
 
 Fetch account object. Must provide account name and master password:
 > node app.js -n [AccountName] -m [MasterPassword]
-example:
+Example:
 > node app.js -n Friendface -m masterpass123
 
 Get help:
