@@ -1,0 +1,10 @@
+
+node_modules/
+persist/
+
+trash
+Error.log
+.DS_Store
+.tmp
+.rvmrc
+
