@@ -7,16 +7,16 @@ Get started: run 'npm install' from command line to install dependencies
 RUN:
 
 Create a new account object. Must provide account name, username, and  account password, as well as master password:
-> node app.js -n [AccountName] -u [AccountUsername] -p [AccountPassword] -m [MasterPassword]
+> node app.js create -n [AccountName] -u [AccountUsername] -p [AccountPassword] -m [MasterPassword]
 
-Example:
-> node app.js -n Friendface -u roy@friendface.com -p pass123 -m masterpass123
-
-Fetch account object. Must provide account name and master password:
-> node app.js -n [AccountName] -m [MasterPassword]
-
-Example:
-> node app.js -n Friendface -m masterpass123
+Get account object. Must provide account name and master password:
+> node app.js get -n [AccountName] -m [MasterPassword]
 
 Get help:
 > node app.js --help
+
+Example create:
+> node app.js create -n Friendface -u roy@friendface.com -p pass123 -m masterpass123
+
+Example get:
+> node app.js get -n Friendface -m masterpass123
